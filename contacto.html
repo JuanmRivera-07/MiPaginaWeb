@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title> Mi Pagina web</title>
+        <link rel="stylesheet" type="text/css" href="Estilos/contacto.css"> 
+    </head>
+    <body>
+        <div id="contenido">
+            <header>
+                <h1> Mi Pagina Web</h1>
+            </header>
+            <nav id="menu">
+                <ul>
+                    <li>
+                        <a href="index.html"> Inicio</a>
+                    </li>
+                    <li>
+                        <a href="estudios.html"> Estudios </a>
+                    </li>
+                    <li>
+                        <a href="proyectos.html"> Proyectos </a>
+                    </li>
+                    <li>
+                        <a href="pasatiempos.html"> Pasatiempos </a>
+                    </li>
+                    <li>
+                        <a href="contacto.html"> Contacto </a>
+                    </li>
+                </ul>
+            </nav>
+            
+            <section id="noticias">
+  
+                <aside>
+                    <h2 id="subtitle"> Formulario de Contacto</h2>
+                    <form>
+                        <p>
+                            <label for="nombre" class="colocar_nombre">Nombre
+                           <span class="obligatorio">*</span>
+                            </label>
+                            <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                        </p>
+              
+                        <p>
+                            <label for="email" class="colocar_email">Email
+                            <span class="obligatorio">*</span>
+                        </label>
+                           <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                        </p>
+              
+              
+                        <p>
+                            <label for="mensaje" id="colocar_mensaje">Mensaje
+                            <span class="obligatorio">*</span>
+                            </label>                     
+                            <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Escribe tu comentario..."></textarea> 
+                        </p>                    
+              
+                          <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+
+                        <p class="aviso">
+                            <span class="obligatorio"> * </span>los campos son obligatorios.
+                        </p>    
+              
+                       <!--input type="text" name="txtBuscar">
+                        <input type="submit" name="Buscar"-->
+                    </form>
+                </aside>
+            </section>
+            <footer id= "piePrin">
+                    <h2>Copyright © 2021 - Ingeniería de Software III</h2>
+                    <h2 id="h22">Universidad del Cauca</h2>
+                    <a href="#"><img src="archivos/face.png" with="25" height="25" href="google.com"/></a>
+                    <a href="#"><img src="archivos/insta.png" with="25" height="25" href="google.com"/></a>                    
+            </footer>
+        </div>
+    </body>
+</html>
